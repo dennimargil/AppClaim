@@ -1,0 +1,60 @@
+<ion-content>
+    <img class="icon" src="../../../assets/icon/exam.png" alt="Icono">
+  
+    <ion-card mode="ios"> 
+  
+    <ion-card-content>
+  
+    <ion-item lines="none">
+      <ion-label position="floating" shape="round">Descripcion</ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+  
+    <ion-item lines="none">
+        <ion-label position="floating" shape="round">Tipo de reclamo</ion-label>
+        <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+            <ion-select-option value="brown">Tipo 1</ion-select-option>
+            <ion-select-option value="blonde">Tipo 2</ion-select-option>
+            <ion-select-option value="black">Tipo 3</ion-select-option>
+            <ion-select-option value="red">Tipo 4</ion-select-option>
+          </ion-select>
+    </ion-item>
+
+    <ion-item lines="none">
+        <ion-label position="floating" shape="round">Sección</ion-label>
+        <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+            <ion-select-option value="brown">Sección 1</ion-select-option>
+            <ion-select-option value="blonde">Sección 2</ion-select-option>
+            <ion-select-option value="black">Sección 3</ion-select-option>
+            <ion-select-option value="red">Sección 4</ion-select-option>
+          </ion-select>
+    </ion-item>
+
+    <ion-item lines="none">
+        <ion-label position="floating" shape="round">Materia</ion-label>
+        <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+            <ion-select-option value="brown">Materia 1</ion-select-option>
+            <ion-select-option value="blonde">Materia 2</ion-select-option>
+            <ion-select-option value="black">Materia 3</ion-select-option>
+            <ion-select-option value="red">Materia 4</ion-select-option>
+          </ion-select>
+    </ion-item>
+
+    <ion-item lines="none">
+        <ion-label position="floating" shape="round">Periodo</ion-label>
+        <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+            <ion-select-option value="brown">Periodo</ion-select-option>
+          </ion-select>
+    </ion-item>
+
+    <ion-item lines="none">
+        <ion-label position="floating" shape="round">Subir constancia de notas</ion-label>
+        <ion-input type="text" name="email"></ion-input>
+    </ion-item>
+  
+  </ion-card-content>
+    
+  </ion-card>
+
+  <ion-button expand="block" shape="round" mode="ios" (click)="onClick()">Crear</ion-button>
+  
